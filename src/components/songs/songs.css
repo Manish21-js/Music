@@ -1,0 +1,43 @@
+.music .songs-box {
+  margin: 10px auto;
+}
+
+.music .songs-box .search {
+  margin: 20px 0px;
+}
+
+.music .songs-box .search input {
+  border: 1px solid #cfcfcf;
+  width: 100%;
+  padding: 10px;
+}
+
+
+.music .songs-box .song {
+  text-align: left;
+  margin: 5px auto;
+
+  padding: 10px;
+  display: flex;
+  cursor: pointer;
+  position: relative;
+}
+
+.music .song:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.36)
+}
+
+.music .song .icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.music .song .icon img {
+  width: 50px;
+}
+
+.music .songs-box .song .action-btn {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+}

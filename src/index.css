@@ -1,0 +1,51 @@
+.music {
+  margin: 0px auto;
+  width: 70%;
+  border: 1px solid #cfcfcf;
+
+  text-align: center;
+}
+
+.music hr {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.music .center {
+  text-align: center;
+}
+
+.music .in-flex {
+  display: inline-flex;
+}
+
+.music .button {
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #cfcfcf;
+  text-decoration: none;
+}
+
+.music .button.selected {
+  background-color: aquamarine;
+  color: #000;
+  border: 1px solid aquamarine;
+  font-weight: bold;
+}
+
+.music .border-box {
+  border: 1px solid #cfcfcf;
+  border-radius: 5px;
+}
+
+.music .border-box:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.36)
+}
+.music .homepage{
+  width: 80%;
+  margin: 10px auto;
+}
+.music .playlistbox {
+  width: 80%;
+  margin: 10px auto;
+}

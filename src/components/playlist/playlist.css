@@ -1,0 +1,19 @@
+.music .playlist {
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.music .viewplaylist .playlistname{
+padding: 10px;
+}
+
+.music .viewplaylist .top {
+    display: flex;
+}
+
+.music .viewplaylist .top div {
+    display: inline-block;
+    width: 50%;
+}
