@@ -23,7 +23,6 @@ class Songs extends React.Component{
     }
     componentDidMount(){
         let songs=this.props.songs;
-        songs.length=200;
         this.setState({
             list:songs
         });
